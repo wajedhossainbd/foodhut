@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Foodhut</title>
+</head>
+
+<body class="bg-slate-800">
+    <header>
+        <h1 class="text-center my-12 text-6xl font-bold text-orange-400">Cook your Taste</h1>
+    </header>
+    <main>
+        <section class="mt-48 mb-24 rounded-lg py-6 flex justify-center mx-auto">
+            <input class="bg-gray-2005 px-64 py-6 rounded-l-lg border-none text-2xl " id="search-field" type="text"
+                name="" id="" placeholder="search recipes">
+            <button
+                class="bg-orange-600 text-white text-2xl font-bold px-20 py-6 rounded-r-lg drop-shadow-xl hover:bg-orange-700"
+                onclick="searchFood()" class="">Search</button>
+        </section>
+        <section>
+            <div id="menu-container" class="grid grid-cols-4 gap-8 mx-20">
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

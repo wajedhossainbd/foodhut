@@ -18,7 +18,8 @@ const displayMeals = meals => {
         <div class="mt-6 p-6">
         <h3 class="text-4xl font-bold mb-3">${meal.strMeal}</h3>
                 <h3 class="mb-6 font-bold text-gray-400"><span class="text-md font-semibold text-orange-400">Dishes:</span> ${meal.strCategory}</h3>
-                <p>${meal.strInstructions.slice(0, 200)}</p>
+                <p class="mb-6">${meal.strInstructions.slice(0, 200)}</p>
+                <button class="bg-red-600 text-white text-xl font-bold px-12 py-4 my-12 rounded-lg hover:bg-red-800" onclick="window.location.href='${meal.strYoutube}'">Watch Tutorial</button>
         </div>
 
         `;

@@ -12,7 +12,7 @@ const displayMeals = meals => {
     menuContainer.innerHTML = '';
     meals.forEach(meal => {
        const menuDiv = document.createElement('div')
-       menuDiv.classList.add('bg-white', 'p-2','rounded-xl')
+       menuDiv.classList.add('bg-white', 'p-2','rounded-xl', 'mx-auto')
         menuDiv.innerHTML = `
         <img class="rounded-xl drop-shadow-lg" src="${meal.strMealThumb}" alt="">
         <div class="mt-6 p-6">
